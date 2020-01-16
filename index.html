@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script scr="/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>The Princess Bride Word Guess Game</title>
 </head>
 <body>
     <header><img src="assets/images/the-princess-bride-517a3b0d15cb6.png" alt="The Princess Bride">
     </header>
-    <!--this is the div that will hold the text after the player wins or loses-->
+    <!--div that will hold the text after the player wins or loses-->
     <div id="answer-display-text">
     </div>
     
     <!--Main container div-->
     <div id="MainContainer">
     </div>
-        <!--this is the div that will be onthe left holding the image placeholder and images with solved problems-->
+        <!--div that will be onthe left holding the image placeholder and images with solved problems-->
         <div id="imagePlaceholder">
         </div>
-        <!--this is the div that will be on the left holding the game and tracking results-->
+        <!--div that will be on the left holding the game and tracking results-->
         <div id="gameContainer">
             <p>Press Any Key to Get Started!</p>
             <!--div holding current word being played-->
@@ -46,6 +46,8 @@
             <p>Letters Already Guessed</p>
             <p id="lettersGuessed"></p>
         </div>
+        <script src="assets/javascript/game.js"></script>
+
     
 </body>
 </html>
